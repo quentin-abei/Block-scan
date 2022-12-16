@@ -4,6 +4,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    background-image: linear-gradient(to left top, #2d0036, #0e3df6, #123ce2, #2954fd, #4825c7);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 a {
@@ -15,12 +20,4 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+

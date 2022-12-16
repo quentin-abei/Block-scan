@@ -1,0 +1,115 @@
+.header {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  color: #eaf90a;
+  display: grid;
+  gap: 1rem;
+}
+
+.container {
+  width: 65%;
+  margin: 0 auto;
+  color: #eaf90a;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.containerBox {
+  background-color: #07103d;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 0.4rem;
+}
+
+.containerBox a {
+  color: #eaf90a;
+  font-weight: 700;
+}
+
+.containerBox h3 {
+  color: #fff;
+  border-bottom: 1px solid #eaf90a;
+  padding: 0.5rem;
+}
+
+.containerBlock {
+  height: 80vh;
+  overflow: scroll;
+}
+
+.containerBlock::-webkit-scrollbar {
+  display: none;
+}
+
+.oneBlock {
+  display: flex;
+  gap: 2rem;
+}
+
+.bk {
+  background: transparent;
+  width: 1.5rem;
+  color: #fff;
+  font-weight: bolder;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.reward {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  justify-content: space-between;
+}
+
+.reward span {
+  color: #eaf90a;
+  font-weight: bolder;
+}
+
+.miner {
+  line-height: 1;
+}
+
+.link a {
+  margin-left: 0.9rem;
+}
+
+.accountAddress {
+  background-color: #07103d;
+  padding: 0.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.accountAddress input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  padding: 0.5rem;
+  color: #fff;
+  width: 100%;
+}
+
+@media  screen and (max-width: 45em){
+    .header{
+        width: 95%;
+    }
+    .container{
+        grid-template-columns: 1fr;
+        width: 95%;
+        overflow: hidden;
+    }
+}
